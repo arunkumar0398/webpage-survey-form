@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webpage Survey Form</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<h1 id="title">Webpage Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<div class="container">
+  <form action="" id="survey-form">
+    
+    <div class="line-space">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" size="5" required>
+      </div>
+    
+    <div class="line-space">
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" class="form-control" placeholder="Enter Email id" required>
+    </div>
+    
+    <div class="line-space">
+      <label for="number" id="number-label">Age(optional)</label>
+      <input type="number" id="number" class="form-control" min="10" max="60" placeholder="Age">
+    </div>
+    
+    <div class="line-space">
+      <label for="issue">What issue to you face in the freeCodeGram ?</label>
+      <select name="issue" id="dropdown" class="form-control">
+        <option value="0">Select</option>
+        <option value="1">Technical issue</option>
+        <option value="2">Page not found issue</option>
+        <option value="3">Others</option>
+      </select>
+    </div>
+    
+    <div class="line-space">
+      <label for="suggest">Would you recommend freeCodeGram to a friend ?</label>
+      <label for="opt1"><input type="radio" name="opt1" value="1"> Definitely</label>
+      <label for="opt1"><input type="radio" name="opt1" value="2"> Maybe</label>
+      <label for="opt1"><input type="radio" name="opt1" value="3"> Not sure</label>
+    </div>
+    
+    <div class="line-space">
+      <label for="feature">What would you like to see improved?</label>
+      <label for="opt1"><input type="checkbox" name="opt1" value="fep"> Front-end Projects</label>
+      <label for="opt1"><input type="checkbox" name="opt2" value="bep"> Back-end Projects</label>
+      <label for="opt1"><input type="checkbox" name="opt3" value="data_visual"> Data Visualisation</label>
+      <label for="opt1"><input type="checkbox" name="opt4" value="challenge"> Challenges</label>
+      <label for="opt1"><input type="checkbox" name="opt5" value="open_source"> Open Source Community</label>
+      <label for="opt1"><input type="checkbox" name="opt6" value="gitter_hr"> Gitter help rooms</label>
+      <label for="opt1"><input type="checkbox" name="opt7" value="video"> Video</label>
+    </div>
+    
+    <div class="line-space">
+      <label for="comment">Any comments or suggestions?</label>
+      <textarea class="form-control" rows="4" id="comment" placeholder="Enter your comment here"></textarea>
+    </div>
+    
+      <input type="submit" id="submit" class="btn btn-success btn-block" value="Submit">
+    
+  </form>
+
+</div>
+
+</body>
+</html>

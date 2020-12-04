@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+  background-image: url("https://natlands.org/wp-content/uploads/2020/03/StroudPreserveOwenMundth_Full-scaled-e1584730383492-2560x1160.jpg");
+  
+}
+.container {
+  background-color: #668cff;
+  padding: 30px;
+  border-radius: 2%;
+  margin: 26px auto;
+  max-width:50%;
+}
+label {
+  display: block;
+  text-align: left;
+}
+.form-control {
+  width: 100%;
+}
+.line-space{
+  white-space: spac;
+  padding: 8px;
+}
+
